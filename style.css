@@ -1,0 +1,115 @@
+body {
+    position: relative;
+    background-color: #d4ddee;
+    width: 100%;
+    height: 600px;    
+}
+
+main{
+    position: absolute;
+    width: 45%;
+    height: 350px;
+    text-align: center;
+    background-color: #fff;
+    margin:100px 0px 200px 235px;
+}
+
+main img{
+    margin-top: 50px;
+    width:250px;
+    height: 110px;
+}
+
+.anuncio p{
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+main p strong{
+    color: #ea18c7;
+}
+
+aside{
+    position: absolute;
+    top: 100px;
+    margin-left:73%;
+    transform: translateX(-50%);         
+}
+
+.acesso{
+    background-color: #e4ecfb;
+    border: 2px solid #fff;
+    height: 263px;       
+}
+
+.acesso p{
+    text-align: center;
+}
+
+.login{
+    display: flex;      
+}
+
+aside section div input{
+    width: 180px;
+    height:19px;
+    margin: 5px;     
+}
+
+ div p{
+    margin: 10px;
+    margin-right: 2px;
+}
+
+.autosave{
+    display: flex;
+}
+
+.autosave input{
+    width: auto;
+    height: auto;
+    margin: 10px 15px 10px 25px;
+}
+
+.autosave p{
+    text-align: left;    
+}
+
+h3{
+    color: #b6b2ca;
+    font-weight: lighter;
+    font-size: 16px;
+    margin: 0 0 5px 65px;    
+}
+
+button{
+    margin: 0 0 5px 65px;    
+}
+
+#esqueceu_a_senha{
+    text-align: center;       
+}
+
+.sem_acesso{
+    background-color: #e4ecfb;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    height: 70px;
+    text-align: center;
+    font-size: 14px;
+}
+
+aside section h4{
+    font-weight: lighter;
+    margin: 10px 0 10px 0;    
+}
+
+.rodapé{
+    position: absolute;
+    text-align: center;
+    background-color: #bccde9;
+    width: 1075px;
+    height: 40px;
+    bottom: 16%;
+    margin-left: 235px;       
+}
